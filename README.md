@@ -1,9 +1,5 @@
 # JavaScript Assignments
 
-JavaScript lab experiments (BE, SPPU 2026-27), Pune Institute of Computer Technology.
-
-**Malhar Inamdar** · Roll No 42205 · Division BE-06 · Batch P6
-
 Each experiment has three files: `index.html`, `style.css` and `script.js`. Open `index.html` in a browser to run it.
 
 | # | Experiment |
