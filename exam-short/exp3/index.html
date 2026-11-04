@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment 3 - String Operations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>String Operations</h1>
+
+  <!-- REVERSE -->
+  <div class="card">
+    <h2>Reverse String</h2>
+    <input type="text" id="revInput" placeholder="Enter a string">
+    <br>
+    <button onclick="reverseString()">Reverse</button>
+    <p id="revResult"></p>
+  </div>
+
+  <!-- REPLACE -->
+  <div class="card">
+    <h2>Replace Characters</h2>
+    <input type="text" id="repInput" placeholder="Enter a string">
+    <input type="text" id="oldChar" placeholder="Character to replace">
+    <input type="text" id="newChar" placeholder="Replace with">
+    <br>
+    <button onclick="replaceChar()">Replace</button>
+    <p id="repResult"></p>
+  </div>
+
+  <!-- PALINDROME -->
+  <div class="card">
+    <h2>Palindrome Check</h2>
+    <input type="text" id="palInput" placeholder="Enter a string">
+    <br>
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="palResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

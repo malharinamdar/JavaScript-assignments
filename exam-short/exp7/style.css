@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+}
+.student-info {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.section {
+  width: 500px;
+  margin: 0 auto 25px;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+}
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background: darkblue; }
+.output {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.output .array-line {
+  color: darkblue;
+  margin-top: 5px;
+}
+.error { color: red; }

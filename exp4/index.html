@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>String Comparison</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="student-info">
+  <p>Name : Malhar Inamdar</p>
+  <p>Division : BE-06</p>
+  <p>Batch : P6</p>
+  <p>Roll No : 42205</p>
+</div>
+
+<h1>String Comparison</h1>
+
+<div class="container">
+
+  <!-- Strict Equality -->
+  <div class="box">
+    <h2>Strict Equality (===)</h2>
+    <input type="text" id="s1" placeholder="Enter First String">
+    <input type="text" id="s2" placeholder="Enter Second String">
+    <button onclick="strictEqual()">Compare</button>
+    <div id="out1" class="result"></div>
+  </div>
+
+  <!-- Loose Equality -->
+  <div class="box">
+    <h2>Loose Equality (==)</h2>
+    <input type="text" id="l1" placeholder="Enter First String">
+    <input type="text" id="l2" placeholder="Enter Second String">
+    <button onclick="looseEqual()">Compare</button>
+    <div id="out2" class="result"></div>
+  </div>
+
+  <!-- Compare Length -->
+  <div class="box">
+    <h2>Compare Length</h2>
+    <input type="text" id="len1" placeholder="Enter First String">
+    <input type="text" id="len2" placeholder="Enter Second String">
+    <button onclick="compareLength()">Compare</button>
+    <div id="out3" class="result"></div>
+  </div>
+
+  <!-- Alphabetical Order -->
+  <div class="box">
+    <h2>Alphabetical Order</h2>
+    <input type="text" id="a1" placeholder="Enter First String">
+    <input type="text" id="a2" placeholder="Enter Second String">
+    <button onclick="alphabet()">Compare</button>
+    <div id="out4" class="result"></div>
+  </div>
+
+  <!-- User Defined -->
+  <div class="box">
+    <h2>User Defined Comparison</h2>
+    <input type="text" id="u1" placeholder="Enter First String">
+    <input type="text" id="u2" placeholder="Enter Second String">
+    <button onclick="userDefined()">Compare</button>
+    <div id="out5" class="result"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment 2 - Multiplication Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Multiplication Table</h1>
+
+  <div class="card">
+    <input type="number" id="num" placeholder="Enter number (not 0)">
+    <input type="number" id="limit" placeholder="Enter length (e.g. 10)">
+    <br>
+    <button onclick="showTable()">Generate</button>
+    <p id="error" class="error"></p>
+  </div>
+
+  <br>
+
+  <!-- Same table using 3 different loops -->
+  <div class="card">
+    <h2>For Loop</h2>
+    <div id="forResult"></div>
+  </div>
+
+  <div class="card">
+    <h2>While Loop</h2>
+    <div id="whileResult"></div>
+  </div>
+
+  <div class="card">
+    <h2>Do-While Loop</h2>
+    <div id="doResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

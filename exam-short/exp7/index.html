@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Append Object to Array & Check isArray</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="student-info">
+  Name: Malhar Inamdar &nbsp;|&nbsp; Roll No: 42205 &nbsp;|&nbsp; Division: 06 &nbsp;|&nbsp; Batch: P6
+</div>
+
+<h1>Append Object to Array &amp; Check isArray</h1>
+
+<!-- 1. Create Array -->
+<div class="section">
+  <h2>Create Array</h2>
+  <input type="number" id="size" placeholder="Enter size of array" min="1">
+  <button onclick="createArray()">Create</button>
+  <div class="output" id="createOut"></div>
+</div>
+
+<!-- 2. Add Elements -->
+<div class="section">
+  <h2>Add Elements</h2>
+  <input type="text" id="elemVal" placeholder="e.g. 1, 1.2, hello, etc.">
+  <button onclick="addElement()">Add</button>
+  <div class="output" id="addOut"></div>
+</div>
+
+<!-- 3. Check isArray by index -->
+<div class="section">
+  <h2>Check whether element is Array (by index)</h2>
+  <input type="number" id="indexVal" placeholder="Enter index">
+  <button onclick="checkIsArray()">isArray</button>
+  <div class="output" id="checkOut"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 60px;
+  transition: background-color 0.3s;
+}
+.student-info {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 40px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 30px;
+  border: 3px solid #333;
+  border-radius: 8px;
+  background: white;
+}
+.section {
+  font-size: 22px;
+  margin-top: 40px;
+}
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #333;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+}
+#status {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 24px;
+  display: inline-block;
+  border: 2px solid #555;
+  border-radius: 8px;
+  background: white;
+  min-width: 300px;
+}

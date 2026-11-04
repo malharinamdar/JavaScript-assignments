@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Color Events</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="student-info">
+  Name: Malhar Inamdar &nbsp;|&nbsp; Roll No: 42205 &nbsp;|&nbsp; Division: BE-06 &nbsp;|&nbsp; Batch: P6
+</div>
+
+<!-- i) Mouseover -->
+<h2 style="font-size:22px; color:#333; margin-bottom:8px;">&#11015; Hover Here &#11015;</h2>
+<h1 onmouseover="doHover('lightblue','Malhar Inamdar')" onmouseout="doHoverOut()">
+  Malhar Inamdar
+</h1>
+
+<!-- ii) Focus -->
+<div class="section">
+  <h2>&#11015; Focus Here &#11015;</h2>
+  <label>Batch:</label>
+  <input type="text" value="P6"
+    onfocus="doFocus('lightblue','Batch field')"
+    onblur="doBlurReset()">
+</div>
+
+
+<!-- Status -->
+<div id="status">Default &nbsp;|&nbsp; Color: white</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

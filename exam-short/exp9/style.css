@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 30px;
+  text-align: center;
+}
+.student-info {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.form-container {
+  width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  text-align: left;
+}
+.field {
+  margin-bottom: 18px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.radio-group {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.radio-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+  display: none;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover { background: darkblue; }
+
+/* Success Page */
+#successPage {
+  display: none;
+  width: 500px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+#successPage h2 {
+  font-size: 30px;
+  color: green;
+  margin-bottom: 15px;
+}
+#successPage p {
+  font-size: 18px;
+  margin: 8px 0;
+  text-align: left;
+}
+#successPage .back-btn {
+  background: green;
+  margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  text-align: center;
+}
+input {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

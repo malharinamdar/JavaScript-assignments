@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Experiment 1 - Area Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Area Calculator</h1>
+
+  <!-- CIRCLE -->
+  <div class="card">
+    <h2>Circle</h2>
+    <input type="number" id="radius" placeholder="Radius">
+    <br>
+    <button onclick="circleArea()">Calculate</button>
+    <p id="circleResult"></p>
+  </div>
+
+  <!-- RECTANGLE -->
+  <div class="card">
+    <h2>Rectangle</h2>
+    <input type="number" id="length" placeholder="Length">
+    <input type="number" id="width" placeholder="Width">
+    <br>
+    <button onclick="rectangleArea()">Calculate</button>
+    <p id="rectResult"></p>
+  </div>
+
+  <!-- TRIANGLE -->
+  <div class="card">
+    <h2>Triangle</h2>
+    <input type="number" id="sideA" placeholder="Side a">
+    <input type="number" id="sideB" placeholder="Side b">
+    <input type="number" id="sideC" placeholder="Side c">
+    <br>
+    <button onclick="triangleArea()">Calculate</button>
+    <p id="triResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+input, button {
+  margin: 5px;
+}
+.section {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+#elementInputs input {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+.array-display {
+  font-family: monospace;
+  background: #f3f3f3;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  white-space: pre-wrap;
+}
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: blue;
+}

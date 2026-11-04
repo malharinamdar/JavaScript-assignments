@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Array Operations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>
+  Name: Malhar Inamdar <br>
+  Roll No: 42205 <br>
+  Batch: P6
+</h2>
+<h2>Array Operations</h2>
+
+<!-- Array Size -->
+<div>
+  <label>Enter size of array:</label>
+  <input type="number" id="arraySize" min="1">
+  <button onclick="generateElementInputs()">Set Size</button>
+</div>
+
+<!-- Dynamic Inputs -->
+<div id="elementInputs" style="margin-top:10px;"></div>
+<button id="submitElementsBtn" style="display:none;" onclick="submitElements()">Submit Elements</button>
+<div id="createMessage" class="message"></div>
+
+<!-- Master Array -->
+<div class="section">
+  <strong>INPUT ARRAY FOR OPERATIONS:</strong>
+  <div id="currentArray" class="array-display">[]</div>
+</div>
+
+<!-- Remove -->
+<div class="section">
+  <h3>Remove Element</h3>
+  <label>Enter value to remove:</label>
+  <input type="number" id="removeValue">
+  <br>
+  <button onclick="removeNormal()">Remove (Normal Method)</button>
+  <button onclick="removeSplice()">Remove (Using splice())</button>
+  <br><br>
+  <strong>Array After Remove Operation:</strong>
+  <div id="removeArray" class="array-display">[]</div>
+  <div id="removeMessage" class="message"></div>
+</div>
+
+<!-- Search -->
+<div class="section">
+  <h3>Search for Element</h3>
+  <label>Enter value to search:</label>
+  <input type="number" id="searchValue">
+  <br>
+  <button onclick="searchLinear()">Search (Linear Search)</button>
+  <button onclick="searchIncludes()">Search (Using includes())</button>
+  <div id="searchMessage" class="message"></div>
+</div>
+
+<!-- Empty -->
+<div class="section">
+  <h3>Empty the Array</h3>
+  <button onclick="emptyNormal()">Empty (Set to [])</button>
+  <button onclick="emptySplice()">Empty (Using splice())</button>
+  <br><br>
+  <strong>Array After Empty Operation:</strong>
+  <div id="emptyArray" class="array-display">[]</div>
+  <div id="emptyMessage" class="message"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
